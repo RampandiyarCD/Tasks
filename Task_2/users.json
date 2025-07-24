@@ -1,0 +1,217 @@
+{
+  "users": [
+    {
+      "login_id": "john_doe_123",
+      "password": "securePass123!",
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "phone": "+919876543210",
+      "address": "123 Main St, Bangalore, Karnataka, 560001",
+      "accounts": {
+        "savings": {
+          "account_number": "123456789012",
+          "branch": "MG Road Branch",
+          "ifsc": "BKID0000123",
+          "opening_date": "2020-05-15",
+          "current_balance": 125000.75,
+          "interest_rate": 3.5,
+          "statement": [
+            {
+              "date": "2023-10-01",
+              "description": "Salary Credit",
+              "amount": 75000.0,
+              "balance": 200000.75
+            },
+            {
+              "date": "2023-10-05",
+              "description": "ATM Withdrawal",
+              "amount": -10000.0,
+              "balance": 190000.75
+            },
+            {
+              "date": "2023-10-10",
+              "description": "Electricity Bill Payment",
+              "amount": -5250.0,
+              "balance": 184750.75
+            },
+            {
+              "date": "2023-10-15",
+              "description": "Interest Credited",
+              "amount": 5250.0,
+              "balance": 190000.75
+            },
+            {
+              "date": "2023-10-20",
+              "description": "Transfer to Alice",
+              "amount": -15000.0,
+              "balance": 175000.75
+            }
+          ]
+        },
+        "current": {
+          "account_number": "987654321098",
+          "branch": "MG Road Branch",
+          "ifsc": "BKID0000123",
+          "opening_date": "2021-02-20",
+          "current_balance": 500000.25,
+          "overdraft_limit": 1000000.0,
+          "statement": [
+            {
+              "date": "2023-10-01",
+              "description": "Business Payment Received",
+              "amount": 250000.0,
+              "balance": 750000.25
+            },
+            {
+              "date": "2023-10-10",
+              "description": "Supplier Payment",
+              "amount": -200000.0,
+              "balance": 550000.25
+            },
+            {
+              "date": "2023-10-15",
+              "description": "Office Rent",
+              "amount": -50000.0,
+              "balance": 500000.25
+            }
+          ]
+        },
+        "credit": {
+          "card_number": "4545676789891234",
+          "card_type": "VISA Platinum",
+          "credit_limit": 300000.0,
+          "available_credit": 275000.0,
+          "due_date": "2023-11-05",
+          "minimum_due": 15000.0,
+          "current_balance": 25000.0,
+          "statement": [
+            {
+              "date": "2023-10-05",
+              "description": "Amazon Purchase",
+              "amount": 12500.0
+            },
+            {
+              "date": "2023-10-10",
+              "description": "Dining - Taj Hotel",
+              "amount": 7500.0
+            },
+            {
+              "date": "2023-10-15",
+              "description": "Fuel - HP Petrol Pump",
+              "amount": 5000.0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "login_id": "alice_smith",
+      "password": "aliceBanking456!",
+      "name": "Alice Smith",
+      "email": "alice.smith@example.com",
+      "phone": "+919887766554",
+      "address": "456 Oak Ave, Mumbai, Maharashtra, 400001",
+      "accounts": {
+        "savings": {
+          "account_number": "567890123456",
+          "branch": "Nariman Point Branch",
+          "ifsc": "BKID0000456",
+          "opening_date": "2019-11-10",
+          "current_balance": 75000.5,
+          "interest_rate": 4.0,
+          "statement": [
+            {
+              "date": "2023-10-01",
+              "description": "Salary Credit",
+              "amount": 50000.0,
+              "balance": 125000.5
+            },
+            {
+              "date": "2023-10-05",
+              "description": "Transfer from John",
+              "amount": 15000.0,
+              "balance": 140000.5
+            },
+            {
+              "date": "2023-10-12",
+              "description": "Shopping Mall Payment",
+              "amount": -25000.0,
+              "balance": 115000.5
+            },
+            {
+              "date": "2023-10-20",
+              "description": "Mutual Fund SIP",
+              "amount": -20000.0,
+              "balance": 95000.5
+            },
+            {
+              "date": "2023-10-25",
+              "description": "Interest Credited",
+              "amount": 2000.0,
+              "balance": 97000.5
+            }
+          ]
+        },
+        "current": {
+          "account_number": "345678901234",
+          "branch": "Nariman Point Branch",
+          "ifsc": "BKID0000456",
+          "opening_date": "2020-08-15",
+          "current_balance": 250000.75,
+          "overdraft_limit": 500000.0,
+          "statement": [
+            {
+              "date": "2023-10-05",
+              "description": "Client Payment",
+              "amount": 100000.0,
+              "balance": 350000.75
+            },
+            {
+              "date": "2023-10-15",
+              "description": "Office Supplies",
+              "amount": -50000.0,
+              "balance": 300000.75
+            },
+            {
+              "date": "2023-10-20",
+              "description": "Employee Salaries",
+              "amount": -50000.0,
+              "balance": 250000.75
+            }
+          ]
+        },
+        "credit": {
+          "card_number": "5555666677778888",
+          "card_type": "Mastercard Gold",
+          "credit_limit": 200000.0,
+          "available_credit": 180000.0,
+          "due_date": "2023-11-10",
+          "minimum_due": 10000.0,
+          "current_balance": 20000.0,
+          "statement": [
+            {
+              "date": "2023-10-08",
+              "description": "Flipkart Purchase",
+              "amount": 12000.0
+            },
+            {
+              "date": "2023-10-12",
+              "description": "Zomato Order",
+              "amount": 1500.0
+            },
+            {
+              "date": "2023-10-18",
+              "description": "Movie Tickets",
+              "amount": 1500.0
+            },
+            {
+              "date": "2023-10-22",
+              "description": "Hotel Booking",
+              "amount": 5000.0
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
