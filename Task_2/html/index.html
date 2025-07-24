@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crystal Delta Banking</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="shortcut icon"
+      href="./assets/1000082726.png"
+      type="image/x-icon"
+    />
+    <style>
+      .gradient-bg {
+        background: linear-gradient(to right, #e6fcff 80%, #ffffff 50%);
+      }
+    </style>
+  </head>
+  <body class="h-screen w-full p-0 m-0 overflow-hidden">
+    <div class="container m-0 p-0 mr-auto flex h-full gradient-bg">
+      <!-- Left Side -->
+      <div class="w-1/2 relative p-10 flex flex-col justify-center">
+        <img
+          src="./assets/1000082726.png"
+          alt="Logo"
+          class="absolute top-8 left-10 w-14 h-14"
+        />
+        <div class="pl-40">
+          <h1 class="text-[75px] font-bold text-[#00303F]">
+            Welcome to <br />
+            <span class="text-[#F05A28]">Crystal Delta</span><br />
+            Banking
+          </h1>
+        </div>
+      </div>
+
+      <!-- Right Side - Login Box -->
+      <div class="w-1/2 flex justify-center items-center">
+        <div
+          class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+        >
+          <div class="bg-white shadow-2xl rounded-xl w-[40rem] p-20 ml-[35rem]">
+            <h3 class="text-xl mb-5 text-[#00303F]">Login to your account</h3>
+            <form class="flex flex-col" id="form">
+              <div class="form-group">
+                <label for="cust_id" class="mt-2 font-medium text-gray-700"
+                  >Customer ID</label
+                >
+                <input
+                  type="text"
+                  id="cust_id"
+                  placeholder="Enter your ID"
+                  class="mt-1 p-2 text-base rounded border border-gray-300 outline-none focus:border-[#0087A5] focus:ring-1 focus:ring-[#0087A5] w-full"
+                />
+                <div id="cust_error" class="text-red-500 text-sm mt-1 hidden">
+                  Please enter your Customer ID
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="pass" class="mt-2 font-medium text-gray-700"
+                  >Password</label
+                >
+                <input
+                  type="password"
+                  id="pass"
+                  placeholder="Enter your password"
+                  class="mt-1 p-2 text-base rounded border border-gray-300 outline-none focus:border-[#0087A5] focus:ring-1 focus:ring-[#0087A5] w-full"
+                />
+                <div class="text-red-500 text-sm mt-1 hidden" id="pass_error">
+                  Password must be 8+ characters
+                </div>
+              </div>
+
+              <button
+                type="submit"
+                class="mt-5 p-3 text-base bg-[#0087A5] text-white rounded cursor-pointer hover:bg-[#006B86]"
+                id="login-button"
+              >
+                Login
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="../javascript/login.js"></script>
+  </body>
+</html>
