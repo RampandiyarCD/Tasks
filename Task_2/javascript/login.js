@@ -7,7 +7,7 @@ const pass_error = document.getElementById("pass-error");
 let usersData = [];
 async function loadUserData() {
   try {
-    const response = await fetch("./users.json");
+    const response = await fetch("../users.json");
     if (!response.ok) {
       throw new Error("Failed to load user data");
     }
